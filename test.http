@@ -1,0 +1,11 @@
+##GET http://localhost:35337/odata/v4/training
+
+POST http://localhost:35337/odata/v4/training/Students
+Content-Type: application/json
+
+{
+  "name": "Bala Sundaram",
+  "course": "sap QM"
+}
+
+
