@@ -14,3 +14,10 @@ entity Attendance {
     date       : Date;
     present    : Boolean;
 }
+entity Courses {
+    key ID          : UUID;
+    title           : String;
+    description     : String;
+    durationDays    : Integer;
+    
+}
